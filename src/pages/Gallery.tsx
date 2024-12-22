@@ -22,7 +22,7 @@ function Gallery() {
       alt: 'Natural soap and bath products'
     },
     {
-      url: '/public/Carousel5.jpeg',
+      url: '/public/Carousel3.jpeg',
       alt: 'Natural soap and bath products'
     },
     {
