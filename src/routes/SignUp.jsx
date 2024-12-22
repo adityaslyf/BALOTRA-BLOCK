@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
+import { RiAccountCircleFill } from "react-icons/ri";
 
 const SignUp = () => {
   const navigate = useNavigate();
@@ -28,7 +29,7 @@ const SignUp = () => {
       // await signUpUser(formData);
       
       // If signup is successful, navigate to home page
-      navigate('/');
+      navigate('/home');
     } catch (err) {
       setError('Failed to create account. Please try again.');
     }
@@ -38,7 +39,9 @@ const SignUp = () => {
     <div className="min-h-screen bg-[#F5F5F5] flex items-center justify-center px-4">
       <div className="bg-white rounded-lg p-8 w-full max-w-md shadow-lg">
         <div className="absolute top-8 left-8">
-          <div className="w-12 h-12 bg-black rounded-full"></div>
+          <div className=" rounded-full flex items-center justify-center">
+            <RiAccountCircleFill size={50} />
+          </div>
         </div>
 
         <h1 className="text-3xl font-bold text-center text-[#8B6B4D] mb-8">
