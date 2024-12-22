@@ -11,19 +11,19 @@ const Shop = () => {
       id: 1,
       name: "Kuttaar",
       price: 350,
-      image: "/public/carousel1.jpeg", // Adjust path as needed
+      image: "/carousel1.jpeg", // Adjust path as needed
     },
     {
       id: 2,
       name: "Phooli",
       price: 400,
-      image: "/public/carousel2.jpeg",
+      image: "/carousel2.jpeg",
     },
     {
       id: 3,
       name: "Nodana",
       price: 400,
-      image: "/public/Carousel3.jpeg",
+      image: "/Carousel3.jpeg",
     },
     {
       id: 4,

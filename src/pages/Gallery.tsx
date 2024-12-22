@@ -6,27 +6,27 @@ function Gallery() {
   // Array of image objects
   const images = [
     {
-      url: '/public/carousel1.jpeg',
+      url: '/carousel1.jpeg',
       alt: 'Natural soap and bath products'
     },
     {
-      url: '/public/carousel2.jpeg',
+      url: '/carousel2.jpeg',
       alt: 'Natural soap and bath products'
     },
     {
-      url: '/public/Carousel3.jpeg',
+      url: '/Carousel3.jpeg',
       alt: 'Natural soap and bath products'
     },
     {
-      url: '/public/Carousel4.jpg',
+      url: '/Carousel4.jpg',
       alt: 'Natural soap and bath products'
     },
     {
-      url: '/public/Carousel3.jpeg',
+      url: '/Carousel3.jpeg',
       alt: 'Natural soap and bath products'
     },
     {
-      url: '/public/Carousel6.jpg',
+      url: '/Carousel6.jpg',
       alt: 'Natural soap and bath products'
     },  
    
