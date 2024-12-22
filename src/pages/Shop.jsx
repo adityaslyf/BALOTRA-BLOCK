@@ -29,7 +29,7 @@ const Shop = () => {
       id: 4,
       name: "Gul- Butah",
       price: 300,
-      image: "public/Carousel4.jpg",
+      image: "/Carousel4.jpg",
     },
   ];
 
