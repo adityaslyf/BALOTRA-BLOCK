@@ -12,7 +12,7 @@ function Navbar() {
         
         {/* Desktop Menu */}
         <div className="hidden md:flex gap-10">
-          <Link to="/" className="text-[#333] font-semibold text-xl uppercase">Home</Link>
+          <Link to="/home" className="text-[#333] font-semibold text-xl uppercase">Home</Link>
           <Link to="/about" className="text-[#333] font-semibold text-xl uppercase">About</Link>
           <Link to="/gallery" className="text-[#333] font-semibold text-xl uppercase">Gallery</Link>
           <Link to="/shop" className="text-[#333] font-semibold text-xl uppercase">Shop</Link>
@@ -43,7 +43,7 @@ function Navbar() {
       {/* Mobile Menu */}
       {isMenuOpen && (
         <div className="md:hidden bg-[#f5f5f5] px-4 py-2">
-          <Link to="/" className="block py-2 text-[#333] font-semibold text-lg uppercase">Home</Link>
+          <Link to="/home" className="block py-2 text-[#333] font-semibold text-lg uppercase">Home</Link>
           <Link to="/about" className="block py-2 text-[#333] font-semibold text-lg uppercase">About</Link>
           <Link to="/gallery" className="block py-2 text-[#333] font-semibold text-lg uppercase">Gallery</Link>
           <Link to="/shop" className="block py-2 text-[#333] font-semibold text-lg uppercase">Shop</Link>
